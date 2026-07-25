@@ -1,0 +1,168 @@
+@import "tailwindcss";
+
+@custom-variant dark ([data-theme="dark"] &);
+
+@theme {
+  /* Fonts */
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Border radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+
+  /* Layout */
+  --spacing-sidebar: 220px;
+
+  /* Semantic colors — light mode defaults.
+     Dark mode overrides live below in the [data-theme="dark"] block. */
+  --color-bg: #f7f7f5;
+  --color-surface: #ffffff;
+  --color-surface-2: #f2f2ef;
+  --color-surface-3: #e8e8e5;
+
+  --color-border: #e5e5e2;
+  --color-border-2: #d5d5d2;
+
+  --color-text-1: #1a1a17;
+  --color-text-2: #6b6b68;
+  --color-text-3: #a8a8a5;
+
+  --color-accent: #3d6b4f;
+  --color-accent-hover: #335c44;
+  --color-accent-text: #ffffff;
+  --color-accent-subtle: #edf4f0;
+  --color-accent-subtle-border: #c4d9cc;
+
+  /* Category colors (flat, no theme override) */
+  --color-cat-work: #3d6b4f;
+  --color-cat-class: #c0392b;
+  --color-cat-study: #7a6ba0;
+  --color-cat-study-clf: #2471a3;
+  --color-cat-study-aiml: #7d3c98;
+  --color-cat-personal: #ca6f1e;
+
+  /* Priority colors (flat) */
+  --color-priority-urgent: #c0392b;
+  --color-priority-high: #e05252;
+  --color-priority-medium: #e09050;
+  --color-priority-low: #6b9e7a;
+
+  /* Semantic state colors (flat) */
+  --color-danger: #c0392b;
+  --color-warn: #e09050;
+  --color-info: #2471a3;
+  --color-success: #3d6b4f;
+
+  /* Shadows */
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.06), 0 4px 12px rgba(0,0,0,0.04);
+  --shadow-popover: 0 8px 32px rgba(0,0,0,0.1), 0 2px 8px rgba(0,0,0,0.06);
+}
+
+/* ──────────────────────────────────────────────────────────────
+   Claude Design compatibility layer.
+   The component CSS (styles/components.css) uses unprefixed vars
+   (`--bg`, `--accent`, `--border`, …). Map them to the Tailwind
+   `@theme` tokens so both worlds reference the same values and
+   dark-mode overrides cascade automatically.
+   ────────────────────────────────────────────────────────────── */
+:root {
+  /* Non-theme design tokens (not color/radius/font — live outside @theme) */
+  --font: var(--font-sans);
+  --radius: var(--radius-md);
+  --sidebar-w: 220px;
+  --transition: 0.18s ease;
+
+  /* Color aliases — light mode values come from @theme above */
+  --bg: var(--color-bg);
+  --surface: var(--color-surface);
+  --surface-2: var(--color-surface-2);
+  --surface-3: var(--color-surface-3);
+
+  --border: var(--color-border);
+  --border-2: var(--color-border-2);
+
+  --text-1: var(--color-text-1);
+  --text-2: var(--color-text-2);
+  --text-3: var(--color-text-3);
+
+  --accent: var(--color-accent);
+  --accent-hover: var(--color-accent-hover);
+  --accent-text: var(--color-accent-text);
+  --accent-subtle: var(--color-accent-subtle);
+  --accent-subtle-border: var(--color-accent-subtle-border);
+
+  --shadow: var(--shadow-card);
+  --shadow-lg: var(--shadow-popover);
+}
+
+/* Dark mode — overrides the theme color variables at runtime.
+   Tailwind classes keep working because they reference the same vars.
+   The unprefixed aliases above resolve through `var(--color-*)`, so
+   they flip automatically. */
+[data-theme="dark"] {
+  --color-bg: #0a0a0a;
+  --color-surface: #141414;
+  --color-surface-2: #1c1c1c;
+  --color-surface-3: #242424;
+
+  --color-border: #2a2a2a;
+  --color-border-2: #333333;
+
+  --color-text-1: #f0f0ee;
+  --color-text-2: #888885;
+  --color-text-3: #555552;
+
+  --color-accent: #5c9972;
+  --color-accent-hover: #6aaa80;
+  --color-accent-text: #0a0a0a;
+  --color-accent-subtle: #162219;
+  --color-accent-subtle-border: #284535;
+
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.3), 0 4px 12px rgba(0,0,0,0.2);
+  --shadow-popover: 0 8px 32px rgba(0,0,0,0.4), 0 2px 8px rgba(0,0,0,0.3);
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+    background: var(--color-bg);
+    color: var(--color-text-1);
+    font-family: var(--font-sans);
+    overflow: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  button {
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: inherit;
+  }
+
+  input,
+  select,
+  textarea {
+    font-family: inherit;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}

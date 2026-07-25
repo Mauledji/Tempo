@@ -1,0 +1,22 @@
+{
+  "name": "tempo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tempo — open source productivity SaaS with native Claude integration",
+  "license": "AGPL-3.0-only",
+  "author": "Mauricio Ledezma",
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  },
+  "scripts": {
+    "dev:frontend": "pnpm --filter frontend dev",
+    "dev:mcp": "pnpm --filter mcp-server dev",
+    "build:frontend": "pnpm --filter frontend build",
+    "build:mcp": "pnpm --filter mcp-server build",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "packageManager": "pnpm@10.12.1"
+}

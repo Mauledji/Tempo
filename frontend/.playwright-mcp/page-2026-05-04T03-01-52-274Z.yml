@@ -1,0 +1,433 @@
+- generic [ref=e3]:
+  - complementary "Navegación principal" [ref=e4]:
+    - button "Colapsar sidebar" [expanded] [ref=e5] [cursor=pointer]:
+      - img [ref=e7]
+      - generic [ref=e11]: Tempo
+    - button "Nueva tarea ⌘K" [ref=e12] [cursor=pointer]:
+      - img [ref=e13]
+      - generic [ref=e14]: Nueva tarea
+      - generic [ref=e15]: ⌘K
+    - navigation [ref=e16]:
+      - button "Inicio" [ref=e17] [cursor=pointer]:
+        - img [ref=e18]
+        - generic [ref=e23]: Inicio
+      - button "Calendario" [ref=e24] [cursor=pointer]:
+        - img [ref=e25]
+        - generic [ref=e27]: Calendario
+      - button "Día" [ref=e28] [cursor=pointer]:
+        - img [ref=e29]
+        - generic [ref=e35]: Día
+      - button "Agenda" [ref=e36] [cursor=pointer]:
+        - img [ref=e37]
+        - generic [ref=e38]: Agenda
+      - button "Tareas" [ref=e39] [cursor=pointer]:
+        - img [ref=e40]
+        - generic [ref=e43]: Tareas
+      - button "Proyectos" [ref=e44] [cursor=pointer]:
+        - img [ref=e45]
+        - generic [ref=e47]: Proyectos
+      - button "Línea de tiempo" [ref=e48] [cursor=pointer]:
+        - img [ref=e49]
+        - generic [ref=e50]: Línea de tiempo
+      - button "Nota diaria" [ref=e51] [cursor=pointer]:
+        - img [ref=e52]
+        - generic [ref=e54]: Nota diaria
+      - button "Progreso" [ref=e55] [cursor=pointer]:
+        - img [ref=e56]
+        - generic [ref=e59]: Progreso
+      - button "Etiquetas" [ref=e60] [cursor=pointer]:
+        - img [ref=e61]
+        - generic [ref=e64]: Etiquetas
+    - generic [ref=e65]:
+      - generic [ref=e66]: Proyectos
+      - button "CLF-C02 68%" [ref=e67] [cursor=pointer]:
+        - generic [ref=e69]: CLF-C02
+        - generic [ref=e70]: 68%
+      - button "AI-ML Roadmap 33%" [ref=e71] [cursor=pointer]:
+        - generic [ref=e73]: AI-ML Roadmap
+        - generic [ref=e74]: 33%
+      - button "CIS Trabajo 72%" [ref=e75] [cursor=pointer]:
+        - generic [ref=e77]: CIS Trabajo
+        - generic [ref=e78]: 72%
+      - button "Ver todos" [ref=e79] [cursor=pointer]:
+        - img [ref=e80]
+        - generic [ref=e81]: Ver todos
+    - generic [ref=e82]:
+      - button "Buscar" [ref=e83] [cursor=pointer]:
+        - img [ref=e84]
+        - generic [ref=e87]: Buscar
+      - button "Archivo" [ref=e88] [cursor=pointer]:
+        - img [ref=e89]
+        - generic [ref=e92]: Archivo
+      - button "Ajustes" [ref=e93] [cursor=pointer]:
+        - img [ref=e94]
+        - generic [ref=e97]: Ajustes
+      - button "Cambiar a modo claro" [ref=e98] [cursor=pointer]:
+        - img [ref=e99]
+        - generic [ref=e105]: Modo claro
+      - generic [ref=e106] [cursor=pointer]:
+        - generic [ref=e107]: MV
+        - generic [ref=e108]:
+          - generic [ref=e109]: Mauricio
+          - generic [ref=e110]: Racha 12d 🔥
+  - main [ref=e111]:
+    - generic [ref=e112]:
+      - generic [ref=e113]:
+        - generic [ref=e114]:
+          - heading "Tareas" [level=1] [ref=e115]
+          - paragraph [ref=e116]: 5 completadas · 17 pendientes
+        - generic [ref=e117]:
+          - combobox [ref=e118] [cursor=pointer]:
+            - option "Todos los proyectos" [selected]
+            - option "CLF-C02"
+            - option "AI-ML Roadmap"
+            - option "Databricks"
+            - option "AWS Academy"
+            - option "CIS Trabajo"
+            - option "PES"
+          - combobox [ref=e119] [cursor=pointer]:
+            - option "Todas las prioridades" [selected]
+            - option "Alta"
+            - option "Media"
+            - option "Baja"
+          - button "Nueva tarea" [active] [ref=e120] [cursor=pointer]:
+            - img [ref=e121]
+            - generic [ref=e122]: Nueva tarea
+      - generic [ref=e123]:
+        - generic [ref=e124]:
+          - generic [ref=e126]:
+            - img [ref=e127]
+            - generic [ref=e130]: Inbox
+            - generic [ref=e131]: "3"
+          - generic [ref=e132]:
+            - 'button "Tarea: Revisar política de IAM en AWS. Enter para abrir, e para editar, j/k para navegar, Espacio para mover." [ref=e133]':
+              - button "Más acciones" [ref=e134] [cursor=pointer]:
+                - img [ref=e135]
+              - generic [ref=e139]:
+                - button [ref=e140] [cursor=pointer]
+                - generic [ref=e141]:
+                  - generic [ref=e142]: Revisar política de IAM en AWS
+                  - generic [ref=e143]:
+                    - generic [ref=e144]: CLF-C02
+                    - generic [ref=e145]: estudio
+            - 'button "Tarea: Leer paper: Attention Is All You Need. Enter para abrir, e para editar, j/k para navegar, Espacio para mover." [ref=e149]':
+              - button "Más acciones" [ref=e150] [cursor=pointer]:
+                - img [ref=e151]
+              - generic [ref=e155]:
+                - button [ref=e156] [cursor=pointer]
+                - generic [ref=e157]:
+                  - generic [ref=e158]: "Leer paper: Attention Is All You Need"
+                  - generic [ref=e159]:
+                    - generic [ref=e160]: AI-ML Roadmap
+                    - generic [ref=e161]: lectura
+            - 'button "Tarea: Setup entorno Databricks local. Enter para abrir, e para editar, j/k para navegar, Espacio para mover." [ref=e165]':
+              - button "Más acciones" [ref=e166] [cursor=pointer]:
+                - img [ref=e167]
+              - generic [ref=e171]:
+                - button [ref=e172] [cursor=pointer]
+                - generic [ref=e173]:
+                  - generic [ref=e174]: Setup entorno Databricks local
+                  - generic [ref=e175]:
+                    - generic [ref=e176]: Databricks
+                    - generic [ref=e177]: setup
+              - img [ref=e181]
+          - button "Agregar" [ref=e185] [cursor=pointer]:
+            - img [ref=e186]
+            - generic [ref=e187]: Agregar
+        - generic [ref=e188]:
+          - generic [ref=e190]:
+            - img [ref=e191]
+            - generic [ref=e197]: Hoy
+            - generic [ref=e198]: "5"
+          - generic [ref=e199]:
+            - 'button "Tarea: Completar módulo EC2 en CLF-C02. Enter para abrir, e para editar, j/k para navegar, Espacio para mover." [ref=e200]':
+              - button "Más acciones" [ref=e201] [cursor=pointer]:
+                - img [ref=e202]
+              - generic [ref=e206]:
+                - button [ref=e207] [cursor=pointer]
+                - generic [ref=e208]:
+                  - generic [ref=e209]: Completar módulo EC2 en CLF-C02
+                  - generic [ref=e210]:
+                    - generic [ref=e211]: CLF-C02
+                    - generic [ref=e212]: estudio
+              - generic [ref=e215]:
+                - img [ref=e216]
+                - text: 18 abr
+            - 'button "Tarea: Entregar avance PES — diagrama UML. Enter para abrir, e para editar, j/k para navegar, Espacio para mover." [ref=e220]':
+              - button "Más acciones" [ref=e221] [cursor=pointer]:
+                - img [ref=e222]
+              - generic [ref=e226]:
+                - button [ref=e227] [cursor=pointer]
+                - generic [ref=e228]:
+                  - generic [ref=e229]: Entregar avance PES — diagrama UML
+                  - generic [ref=e230]:
+                    - generic [ref=e231]: PES
+                    - generic [ref=e232]: universidad
+              - generic [ref=e235]:
+                - img [ref=e236]
+                - text: 18 abr
+            - 'button "Tarea: Clase Bases de Datos II — 6pm. Enter para abrir, e para editar, j/k para navegar, Espacio para mover." [ref=e240]':
+              - button "Más acciones" [ref=e241] [cursor=pointer]:
+                - img [ref=e242]
+              - generic [ref=e246]:
+                - button [ref=e247] [cursor=pointer]
+                - generic [ref=e248]:
+                  - generic [ref=e249]: Clase Bases de Datos II — 6pm
+                  - generic [ref=e250]:
+                    - generic [ref=e251]: PES
+                    - generic [ref=e252]: clase
+              - generic [ref=e255]:
+                - img [ref=e256]
+                - text: 18 abr
+            - 'button "Tarea: Leer resumen Fase 2 AI-ML. Enter para abrir, e para editar, j/k para navegar, Espacio para mover." [ref=e260]':
+              - button "Más acciones" [ref=e261] [cursor=pointer]:
+                - img [ref=e262]
+              - generic [ref=e266]:
+                - button [ref=e267] [cursor=pointer]
+                - generic [ref=e268]:
+                  - generic [ref=e269]: Leer resumen Fase 2 AI-ML
+                  - generic [ref=e270]:
+                    - generic [ref=e271]: AI-ML Roadmap
+                    - generic [ref=e272]: estudio
+              - generic [ref=e273]:
+                - generic [ref=e275]:
+                  - img [ref=e276]
+                  - text: 18 abr
+                - img [ref=e280]
+            - 'button "Tarea: Test PR5 RHF + zod. Enter para abrir, e para editar, j/k para navegar, Espacio para mover." [ref=e694]':
+              - button "Más acciones" [ref=e695] [cursor=pointer]:
+                - img [ref=e696]
+              - generic [ref=e700]:
+                - button [ref=e701] [cursor=pointer]
+                - generic [ref=e703]: Test PR5 RHF + zod
+          - button "Agregar" [ref=e284] [cursor=pointer]:
+            - img [ref=e285]
+            - generic [ref=e286]: Agregar
+        - generic [ref=e287]:
+          - generic [ref=e289]:
+            - img [ref=e290]
+            - generic [ref=e292]: Esta semana
+            - generic [ref=e293]: "5"
+          - generic [ref=e294]:
+            - 'button "Tarea: Mock exam CLF-C02 — Practice Test 1. Enter para abrir, e para editar, j/k para navegar, Espacio para mover." [ref=e295]':
+              - button "Más acciones" [ref=e296] [cursor=pointer]:
+                - img [ref=e297]
+              - generic [ref=e301]:
+                - button [ref=e302] [cursor=pointer]
+                - generic [ref=e303]:
+                  - generic [ref=e304]: Mock exam CLF-C02 — Practice Test 1
+                  - generic [ref=e305]:
+                    - generic [ref=e306]: CLF-C02
+                    - generic [ref=e307]: examen
+              - generic [ref=e310]:
+                - img [ref=e311]
+                - text: 21 abr
+            - 'button "Tarea: Implementar endpoint REST — CIS. Enter para abrir, e para editar, j/k para navegar, Espacio para mover." [ref=e315]':
+              - button "Más acciones" [ref=e316] [cursor=pointer]:
+                - img [ref=e317]
+              - generic [ref=e321]:
+                - button [ref=e322] [cursor=pointer]
+                - generic [ref=e323]:
+                  - generic [ref=e324]: Implementar endpoint REST — CIS
+                  - generic [ref=e325]:
+                    - generic [ref=e326]: CIS Trabajo
+                    - generic [ref=e327]: código
+              - generic [ref=e330]:
+                - img [ref=e331]
+                - text: 20 abr
+            - 'button "Tarea: Revisar Lab 7 AWS Academy. Enter para abrir, e para editar, j/k para navegar, Espacio para mover." [ref=e335]':
+              - button "Más acciones" [ref=e336] [cursor=pointer]:
+                - img [ref=e337]
+              - generic [ref=e341]:
+                - button [ref=e342] [cursor=pointer]
+                - generic [ref=e343]:
+                  - generic [ref=e344]: Revisar Lab 7 AWS Academy
+                  - generic [ref=e345]:
+                    - generic [ref=e346]: AWS Academy
+                    - generic [ref=e347]: lab
+              - generic [ref=e350]:
+                - img [ref=e351]
+                - text: 22 abr
+            - 'button "Tarea: Setup notebook Databricks Lakehouse. Enter para abrir, e para editar, j/k para navegar, Espacio para mover." [ref=e355]':
+              - button "Más acciones" [ref=e356] [cursor=pointer]:
+                - img [ref=e357]
+              - generic [ref=e361]:
+                - button [ref=e362] [cursor=pointer]
+                - generic [ref=e363]:
+                  - generic [ref=e364]: Setup notebook Databricks Lakehouse
+                  - generic [ref=e365]:
+                    - generic [ref=e366]: Databricks
+                    - generic [ref=e367]: setup
+              - generic [ref=e368]:
+                - generic [ref=e370]:
+                  - img [ref=e371]
+                  - text: 23 abr
+                - img [ref=e375]
+            - 'button "Tarea: Reunión proyecto PES — definir APIs. Enter para abrir, e para editar, j/k para navegar, Espacio para mover." [ref=e379]':
+              - button "Más acciones" [ref=e380] [cursor=pointer]:
+                - img [ref=e381]
+              - generic [ref=e385]:
+                - button [ref=e386] [cursor=pointer]
+                - generic [ref=e387]:
+                  - generic [ref=e388]: Reunión proyecto PES — definir APIs
+                  - generic [ref=e389]:
+                    - generic [ref=e390]: PES
+                    - generic [ref=e391]: reunión
+              - generic [ref=e394]:
+                - img [ref=e395]
+                - text: 22 abr
+          - button "Agregar" [ref=e399] [cursor=pointer]:
+            - img [ref=e400]
+            - generic [ref=e401]: Agregar
+        - generic [ref=e402]:
+          - generic [ref=e404]:
+            - img [ref=e405]
+            - generic [ref=e408]: Próximas
+            - generic [ref=e409]: "4"
+          - generic [ref=e410]:
+            - 'button "Tarea: Terminar Fase 2 AI-ML Roadmap. Enter para abrir, e para editar, j/k para navegar, Espacio para mover." [ref=e411]':
+              - button "Más acciones" [ref=e412] [cursor=pointer]:
+                - img [ref=e413]
+              - generic [ref=e417]:
+                - button [ref=e418] [cursor=pointer]
+                - generic [ref=e419]:
+                  - generic [ref=e420]: Terminar Fase 2 AI-ML Roadmap
+                  - generic [ref=e421]:
+                    - generic [ref=e422]: AI-ML Roadmap
+                    - generic [ref=e423]: hito
+              - generic [ref=e424]:
+                - generic [ref=e426]:
+                  - img [ref=e427]
+                  - text: 30 abr
+                - img [ref=e431]
+            - 'button "Tarea: Registrar examen CLF-C02 en Pearson VUE. Enter para abrir, e para editar, j/k para navegar, Espacio para mover." [ref=e435]':
+              - button "Más acciones" [ref=e436] [cursor=pointer]:
+                - img [ref=e437]
+              - generic [ref=e441]:
+                - button [ref=e442] [cursor=pointer]
+                - generic [ref=e443]:
+                  - generic [ref=e444]: Registrar examen CLF-C02 en Pearson VUE
+                  - generic [ref=e445]:
+                    - generic [ref=e446]: CLF-C02
+                    - generic [ref=e447]: admin
+              - generic [ref=e450]:
+                - img [ref=e451]
+                - text: 29 abr
+            - 'button "Tarea: Entrega final Módulo 3 Databricks. Enter para abrir, e para editar, j/k para navegar, Espacio para mover." [ref=e455]':
+              - button "Más acciones" [ref=e456] [cursor=pointer]:
+                - img [ref=e457]
+              - generic [ref=e461]:
+                - button [ref=e462] [cursor=pointer]
+                - generic [ref=e463]:
+                  - generic [ref=e464]: Entrega final Módulo 3 Databricks
+                  - generic [ref=e465]:
+                    - generic [ref=e466]: Databricks
+                    - generic [ref=e467]: entrega
+              - generic [ref=e470]:
+                - img [ref=e471]
+                - text: 4 may
+            - 'button "Tarea: Revisión de código CIS Sprint 4. Enter para abrir, e para editar, j/k para navegar, Espacio para mover." [ref=e475]':
+              - button "Más acciones" [ref=e476] [cursor=pointer]:
+                - img [ref=e477]
+              - generic [ref=e481]:
+                - button [ref=e482] [cursor=pointer]
+                - generic [ref=e483]:
+                  - generic [ref=e484]: Revisión de código CIS Sprint 4
+                  - generic [ref=e485]:
+                    - generic [ref=e486]: CIS Trabajo
+                    - generic [ref=e487]: trabajo
+              - generic [ref=e490]:
+                - img [ref=e491]
+                - text: 2 may
+          - button "Agregar" [ref=e495] [cursor=pointer]:
+            - img [ref=e496]
+            - generic [ref=e497]: Agregar
+        - generic [ref=e498]:
+          - generic [ref=e500]:
+            - img [ref=e501]
+            - generic [ref=e504]: Completadas
+            - generic [ref=e505]: "5"
+          - generic [ref=e506]:
+            - 'button "Tarea: Daily standup + sprint review. Enter para abrir, e para editar, j/k para navegar, Espacio para mover." [ref=e507]':
+              - button "Más acciones" [ref=e508] [cursor=pointer]:
+                - img [ref=e509]
+              - generic [ref=e513]:
+                - button [ref=e514] [cursor=pointer]:
+                  - img [ref=e515]
+                - generic [ref=e517]:
+                  - generic [ref=e518]: Daily standup + sprint review
+                  - generic [ref=e519]:
+                    - generic [ref=e520]: CIS Trabajo
+                    - generic [ref=e521]: trabajo
+              - generic [ref=e524]:
+                - img [ref=e525]
+                - text: 18 abr
+            - 'button "Tarea: Completar módulo S3 + Glacier. Enter para abrir, e para editar, j/k para navegar, Espacio para mover." [ref=e529]':
+              - button "Más acciones" [ref=e530] [cursor=pointer]:
+                - img [ref=e531]
+              - generic [ref=e535]:
+                - button [ref=e536] [cursor=pointer]:
+                  - img [ref=e537]
+                - generic [ref=e539]:
+                  - generic [ref=e540]: Completar módulo S3 + Glacier
+                  - generic [ref=e541]:
+                    - generic [ref=e542]: CLF-C02
+                    - generic [ref=e543]: estudio
+              - generic [ref=e546]:
+                - img [ref=e547]
+                - text: 14 abr
+            - 'button "Tarea: Fase 1 AI-ML: Fundamentos Python. Enter para abrir, e para editar, j/k para navegar, Espacio para mover." [ref=e551]':
+              - button "Más acciones" [ref=e552] [cursor=pointer]:
+                - img [ref=e553]
+              - generic [ref=e557]:
+                - button [ref=e558] [cursor=pointer]:
+                  - img [ref=e559]
+                - generic [ref=e561]:
+                  - generic [ref=e562]: "Fase 1 AI-ML: Fundamentos Python"
+                  - generic [ref=e563]:
+                    - generic [ref=e564]: AI-ML Roadmap
+                    - generic [ref=e565]: hito
+              - generic [ref=e568]:
+                - img [ref=e569]
+                - text: 9 abr
+            - 'button "Tarea: Setup AWS Free Tier + billing alerts. Enter para abrir, e para editar, j/k para navegar, Espacio para mover." [ref=e573]':
+              - button "Más acciones" [ref=e574] [cursor=pointer]:
+                - img [ref=e575]
+              - generic [ref=e579]:
+                - button [ref=e580] [cursor=pointer]:
+                  - img [ref=e581]
+                - generic [ref=e583]:
+                  - generic [ref=e584]: Setup AWS Free Tier + billing alerts
+                  - generic [ref=e585]:
+                    - generic [ref=e586]: AWS Academy
+                    - generic [ref=e587]: setup
+              - generic [ref=e588]:
+                - generic [ref=e590]:
+                  - img [ref=e591]
+                  - text: 7 abr
+                - img [ref=e595]
+            - 'button "Tarea: Entrega 1 PES — Requerimientos. Enter para abrir, e para editar, j/k para navegar, Espacio para mover." [ref=e599]':
+              - button "Más acciones" [ref=e600] [cursor=pointer]:
+                - img [ref=e601]
+              - generic [ref=e605]:
+                - button [ref=e606] [cursor=pointer]:
+                  - img [ref=e607]
+                - generic [ref=e609]:
+                  - generic [ref=e610]: Entrega 1 PES — Requerimientos
+                  - generic [ref=e611]:
+                    - generic [ref=e612]: PES
+                    - generic [ref=e613]: entrega
+              - generic [ref=e616]:
+                - img [ref=e617]
+                - text: 4 abr
+          - button "Agregar" [ref=e621] [cursor=pointer]:
+            - img [ref=e622]
+            - generic [ref=e623]: Agregar
+      - status [ref=e624]
+  - generic [ref=e708]:
+    - img [ref=e709]
+    - generic [ref=e712]:
+      - generic [ref=e713]: Tarea creada
+      - generic [ref=e714]: Test PR5 RHF + zod
+    - button [ref=e715] [cursor=pointer]:
+      - img [ref=e716]

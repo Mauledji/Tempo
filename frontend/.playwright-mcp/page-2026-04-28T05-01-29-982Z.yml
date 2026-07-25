@@ -1,0 +1,160 @@
+- generic [ref=e3]:
+  - complementary "Navegación principal" [ref=e4]:
+    - button "Colapsar sidebar" [expanded] [ref=e5] [cursor=pointer]:
+      - img [ref=e7]
+      - generic [ref=e11]: Tempo
+    - button "Nueva tarea ⌘K" [ref=e12] [cursor=pointer]:
+      - img [ref=e13]
+      - generic [ref=e14]: Nueva tarea
+      - generic [ref=e15]: ⌘K
+    - navigation [ref=e16]:
+      - button "Inicio" [ref=e17] [cursor=pointer]:
+        - img [ref=e18]
+        - generic [ref=e23]: Inicio
+      - button "Calendario" [ref=e24] [cursor=pointer]:
+        - img [ref=e25]
+        - generic [ref=e27]: Calendario
+      - button "Día" [ref=e28] [cursor=pointer]:
+        - img [ref=e29]
+        - generic [ref=e35]: Día
+      - button "Agenda" [ref=e36] [cursor=pointer]:
+        - img [ref=e37]
+        - generic [ref=e38]: Agenda
+      - button "Tareas" [ref=e39] [cursor=pointer]:
+        - img [ref=e40]
+        - generic [ref=e43]: Tareas
+      - button "Proyectos" [ref=e44] [cursor=pointer]:
+        - img [ref=e45]
+        - generic [ref=e47]: Proyectos
+      - button "Línea de tiempo" [ref=e48] [cursor=pointer]:
+        - img [ref=e49]
+        - generic [ref=e50]: Línea de tiempo
+      - button "Nota diaria" [ref=e51] [cursor=pointer]:
+        - img [ref=e52]
+        - generic [ref=e54]: Nota diaria
+      - button "Progreso" [ref=e55] [cursor=pointer]:
+        - img [ref=e56]
+        - generic [ref=e59]: Progreso
+      - button "Etiquetas" [ref=e60] [cursor=pointer]:
+        - img [ref=e61]
+        - generic [ref=e64]: Etiquetas
+    - generic [ref=e65]:
+      - generic [ref=e66]: Proyectos
+      - button "CLF-C02 68%" [ref=e67] [cursor=pointer]:
+        - generic [ref=e69]: CLF-C02
+        - generic [ref=e70]: 68%
+      - button "AI-ML Roadmap 33%" [ref=e71] [cursor=pointer]:
+        - generic [ref=e73]: AI-ML Roadmap
+        - generic [ref=e74]: 33%
+      - button "CIS Trabajo 72%" [ref=e75] [cursor=pointer]:
+        - generic [ref=e77]: CIS Trabajo
+        - generic [ref=e78]: 72%
+      - button "Ver todos" [ref=e79] [cursor=pointer]:
+        - img [ref=e80]
+        - generic [ref=e81]: Ver todos
+    - generic [ref=e82]:
+      - button "Buscar" [ref=e83] [cursor=pointer]:
+        - img [ref=e84]
+        - generic [ref=e87]: Buscar
+      - button "Archivo" [ref=e88] [cursor=pointer]:
+        - img [ref=e89]
+        - generic [ref=e92]: Archivo
+      - button "Ajustes" [ref=e93] [cursor=pointer]:
+        - img [ref=e94]
+        - generic [ref=e97]: Ajustes
+      - button "Cambiar a modo claro" [ref=e98] [cursor=pointer]:
+        - img [ref=e99]
+        - generic [ref=e105]: Modo claro
+      - generic [ref=e106] [cursor=pointer]:
+        - generic [ref=e107]: MV
+        - generic [ref=e108]:
+          - generic [ref=e109]: Mauricio
+          - generic [ref=e110]: Racha 12d 🔥
+  - main [ref=e111]:
+    - generic [ref=e112]:
+      - generic [ref=e113]:
+        - generic [ref=e114]: Proyectos
+        - button "CLF-C02 68% · Práctica" [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: CLF-C02
+            - generic [ref=e119]: 68% · Práctica
+        - button "AI-ML Roadmap 33% · Fase 2" [ref=e120] [cursor=pointer]:
+          - generic [ref=e122]:
+            - generic [ref=e123]: AI-ML Roadmap
+            - generic [ref=e124]: 33% · Fase 2
+        - button "Databricks 20% · Módulo 3" [ref=e125] [cursor=pointer]:
+          - generic [ref=e127]:
+            - generic [ref=e128]: Databricks
+            - generic [ref=e129]: 20% · Módulo 3
+        - button "AWS Academy 55% · Lab 7" [ref=e130] [cursor=pointer]:
+          - generic [ref=e132]:
+            - generic [ref=e133]: AWS Academy
+            - generic [ref=e134]: 55% · Lab 7
+        - button "CIS Trabajo 72% · Sprint 4" [ref=e135] [cursor=pointer]:
+          - generic [ref=e137]:
+            - generic [ref=e138]: CIS Trabajo
+            - generic [ref=e139]: 72% · Sprint 4
+        - button "PES 45% · Entrega 2" [ref=e140] [cursor=pointer]:
+          - generic [ref=e142]:
+            - generic [ref=e143]: PES
+            - generic [ref=e144]: 45% · Entrega 2
+        - button "Nuevo proyecto" [ref=e146] [cursor=pointer]:
+          - img [ref=e147]
+          - generic [ref=e148]: Nuevo proyecto
+      - generic [ref=e149]:
+        - generic [ref=e150]:
+          - generic [ref=e151]:
+            - heading "AWS Cloud Practitioner" [level=2] [ref=e154]
+            - generic [ref=e155]:
+              - generic [ref=e156]: "Fase: Práctica"
+              - generic [ref=e157]: "Deadline: 14 de mayo de 2026"
+          - button "Nueva tarea" [ref=e158] [cursor=pointer]:
+            - img [ref=e159]
+            - generic [ref=e160]: Nueva tarea
+        - tablist [ref=e161]:
+          - tab "Tareas" [selected] [ref=e162] [cursor=pointer]:
+            - img [ref=e163]
+            - generic [ref=e166]: Tareas
+          - tab "Eventos" [ref=e167] [cursor=pointer]:
+            - img [ref=e168]
+            - generic [ref=e170]: Eventos
+          - tab "Hitos" [ref=e171] [cursor=pointer]:
+            - img [ref=e172]
+            - generic [ref=e174]: Hitos
+          - tab "Progreso" [ref=e175] [cursor=pointer]:
+            - img [ref=e176]
+            - generic [ref=e179]: Progreso
+          - tab "Notas" [ref=e180] [cursor=pointer]:
+            - img [ref=e181]
+            - generic [ref=e184]: Notas
+        - generic [ref=e185]:
+          - generic [ref=e186]:
+            - generic [ref=e187]: HOY
+            - generic [ref=e188] [cursor=pointer]:
+              - button [ref=e189]
+              - generic [ref=e190]: Completar módulo EC2 en CLF-C02
+              - generic [ref=e192]: 18 abr
+          - generic [ref=e194]:
+            - generic [ref=e195]: ESTA SEMANA
+            - generic [ref=e196] [cursor=pointer]:
+              - button [ref=e197]
+              - generic [ref=e198]: Mock exam CLF-C02 — Practice Test 1
+              - generic [ref=e200]: 21 abr
+          - generic [ref=e202]:
+            - generic [ref=e203]: PRÓXIMAS
+            - generic [ref=e204] [cursor=pointer]:
+              - button [ref=e205]
+              - generic [ref=e206]: Registrar examen CLF-C02 en Pearson VUE
+              - generic [ref=e208]: 29 abr
+          - generic [ref=e210]:
+            - generic [ref=e211]: INBOX
+            - generic [ref=e212] [cursor=pointer]:
+              - button [ref=e213]
+              - generic [ref=e214]: Revisar política de IAM en AWS
+          - generic [ref=e217]:
+            - generic [ref=e218]: COMPLETADAS
+            - generic [ref=e219] [cursor=pointer]:
+              - button [ref=e220]:
+                - img [ref=e221]
+              - generic [ref=e223]: Completar módulo S3 + Glacier
+              - generic [ref=e225]: 14 abr

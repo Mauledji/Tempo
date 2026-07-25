@@ -1,0 +1,89 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - button [expanded] [ref=e5] [cursor=pointer]:
+      - img [ref=e7]
+      - generic [ref=e11]: Tempo
+    - button [ref=e12] [cursor=pointer]:
+      - img [ref=e13]
+      - generic [ref=e14]: Nueva tarea
+      - generic [ref=e15]: ⌘K
+    - navigation [ref=e16]:
+      - button [ref=e17] [cursor=pointer]:
+        - img [ref=e18]
+        - generic [ref=e23]: Inicio
+      - button [ref=e24] [cursor=pointer]:
+        - img [ref=e25]
+        - generic [ref=e27]: Calendario
+      - button [ref=e28] [cursor=pointer]:
+        - img [ref=e29]
+        - generic [ref=e35]: Día
+      - button [ref=e36] [cursor=pointer]:
+        - img [ref=e37]
+        - generic [ref=e38]: Agenda
+      - button [ref=e39] [cursor=pointer]:
+        - img [ref=e40]
+        - generic [ref=e43]: Tareas
+      - button [ref=e44] [cursor=pointer]:
+        - img [ref=e45]
+        - generic [ref=e47]: Proyectos
+      - button [ref=e48] [cursor=pointer]:
+        - img [ref=e49]
+        - generic [ref=e50]: Línea de tiempo
+      - button [ref=e51] [cursor=pointer]:
+        - img [ref=e52]
+        - generic [ref=e54]: Nota diaria
+      - button [ref=e55] [cursor=pointer]:
+        - img [ref=e56]
+        - generic [ref=e59]: Progreso
+      - button [ref=e60] [cursor=pointer]:
+        - img [ref=e61]
+        - generic [ref=e64]: Etiquetas
+    - generic [ref=e65]:
+      - generic [ref=e66]: Proyectos
+      - button [ref=e67] [cursor=pointer]:
+        - generic [ref=e69]: CLF-C02
+        - generic [ref=e70]: 68%
+      - button [ref=e71] [cursor=pointer]:
+        - generic [ref=e73]: AI-ML Roadmap
+        - generic [ref=e74]: 33%
+      - button [ref=e75] [cursor=pointer]:
+        - generic [ref=e77]: CIS Trabajo
+        - generic [ref=e78]: 72%
+      - button [ref=e79] [cursor=pointer]:
+        - img [ref=e80]
+        - generic [ref=e81]: Ver todos
+    - generic [ref=e82]:
+      - button [ref=e83] [cursor=pointer]:
+        - img [ref=e84]
+        - generic [ref=e87]: Buscar
+      - button [ref=e88] [cursor=pointer]:
+        - img [ref=e89]
+        - generic [ref=e92]: Archivo
+      - button [ref=e93] [cursor=pointer]:
+        - img [ref=e94]
+        - generic [ref=e97]: Ajustes
+      - button [ref=e98] [cursor=pointer]:
+        - img [ref=e99]
+        - generic [ref=e101]: Modo oscuro
+      - generic [ref=e102] [cursor=pointer]:
+        - generic [ref=e103]: MV
+        - generic [ref=e104]:
+          - generic [ref=e105]: Mauricio
+          - generic [ref=e106]: Racha 12d 🔥
+  - main [ref=e107]
+  - navigation "Navegación inferior" [ref=e142]:
+    - button "Inicio" [ref=e143] [cursor=pointer]:
+      - img [ref=e144]
+      - generic [ref=e149]: Inicio
+    - button "Tareas" [ref=e150] [cursor=pointer]:
+      - img [ref=e151]
+      - generic [ref=e154]: Tareas
+    - button "Calendario" [ref=e155] [cursor=pointer]:
+      - img [ref=e156]
+      - generic [ref=e158]: Calendario
+    - button "Proyectos" [ref=e159] [cursor=pointer]:
+      - img [ref=e160]
+      - generic [ref=e162]: Proyectos
+    - button "Más" [ref=e163] [cursor=pointer]:
+      - img [ref=e164]
+      - generic [ref=e165]: Más

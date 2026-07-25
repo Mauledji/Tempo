@@ -1,0 +1,40 @@
+{
+  "name": "@mauledji/tempo-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Tempo — connect Claude Code to your Tempo account",
+  "license": "MIT",
+  "author": "Mauricio Ledezma",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "tempo-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "claude",
+    "tempo",
+    "productivity"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^24.12.2",
+    "tsx": "^4.21.0",
+    "typescript": "~6.0.3"
+  }
+}

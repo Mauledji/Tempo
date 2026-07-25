@@ -1,0 +1,106 @@
+- generic [ref=e3]:
+  - complementary "Navegación principal" [ref=e4]:
+    - button "Colapsar sidebar" [expanded] [ref=e5] [cursor=pointer]:
+      - img [ref=e7]
+      - generic [ref=e11]: Tempo
+    - button "Nueva tarea ⌘K" [ref=e12] [cursor=pointer]:
+      - img [ref=e13]
+      - generic [ref=e14]: Nueva tarea
+      - generic [ref=e15]: ⌘K
+    - navigation [ref=e16]:
+      - button "Inicio" [ref=e17] [cursor=pointer]:
+        - img [ref=e18]
+        - generic [ref=e23]: Inicio
+      - button "Calendario" [ref=e24] [cursor=pointer]:
+        - img [ref=e25]
+        - generic [ref=e27]: Calendario
+      - button "Día" [ref=e28] [cursor=pointer]:
+        - img [ref=e29]
+        - generic [ref=e35]: Día
+      - button "Agenda" [ref=e36] [cursor=pointer]:
+        - img [ref=e37]
+        - generic [ref=e38]: Agenda
+      - button "Tareas" [ref=e39] [cursor=pointer]:
+        - img [ref=e40]
+        - generic [ref=e43]: Tareas
+      - button "Proyectos" [ref=e44] [cursor=pointer]:
+        - img [ref=e45]
+        - generic [ref=e47]: Proyectos
+      - button "Línea de tiempo" [ref=e48] [cursor=pointer]:
+        - img [ref=e49]
+        - generic [ref=e50]: Línea de tiempo
+      - button "Nota diaria" [ref=e51] [cursor=pointer]:
+        - img [ref=e52]
+        - generic [ref=e54]: Nota diaria
+      - button "Progreso" [ref=e55] [cursor=pointer]:
+        - img [ref=e56]
+        - generic [ref=e59]: Progreso
+      - button "Etiquetas" [ref=e60] [cursor=pointer]:
+        - img [ref=e61]
+        - generic [ref=e64]: Etiquetas
+    - generic [ref=e65]:
+      - generic [ref=e66]: Proyectos
+      - button "CLF-C02 68%" [ref=e67] [cursor=pointer]:
+        - generic [ref=e69]: CLF-C02
+        - generic [ref=e70]: 68%
+      - button "AI-ML Roadmap 33%" [ref=e71] [cursor=pointer]:
+        - generic [ref=e73]: AI-ML Roadmap
+        - generic [ref=e74]: 33%
+      - button "CIS Trabajo 72%" [ref=e75] [cursor=pointer]:
+        - generic [ref=e77]: CIS Trabajo
+        - generic [ref=e78]: 72%
+      - button "Ver todos" [ref=e79] [cursor=pointer]:
+        - img [ref=e80]
+        - generic [ref=e81]: Ver todos
+    - generic [ref=e82]:
+      - button "Buscar" [ref=e83] [cursor=pointer]:
+        - img [ref=e84]
+        - generic [ref=e87]: Buscar
+      - button "Archivo" [ref=e88] [cursor=pointer]:
+        - img [ref=e89]
+        - generic [ref=e92]: Archivo
+      - button "Ajustes" [ref=e93] [cursor=pointer]:
+        - img [ref=e94]
+        - generic [ref=e97]: Ajustes
+      - button "Cambiar a modo oscuro" [ref=e98] [cursor=pointer]:
+        - img [ref=e99]
+        - generic [ref=e101]: Modo oscuro
+      - generic [ref=e102] [cursor=pointer]:
+        - generic [ref=e103]: MV
+        - generic [ref=e104]:
+          - generic [ref=e105]: Mauricio
+          - generic [ref=e106]: Racha 12d 🔥
+  - main [ref=e107]
+  - dialog [ref=e266]:
+    - generic [ref=e268]:
+      - generic [ref=e269]:
+        - generic [ref=e270]:
+          - generic [ref=e272]: Revisar política de IAM en AWS
+          - generic [ref=e273]:
+            - button [active] [ref=e274] [cursor=pointer]:
+              - img [ref=e275]
+            - button [ref=e278] [cursor=pointer]:
+              - img [ref=e279]
+        - generic [ref=e282]:
+          - generic [ref=e283]: CLF-C02
+          - generic [ref=e284]: Alta
+          - generic [ref=e285]: estudio
+      - generic [ref=e286]:
+        - button "detalle" [ref=e287] [cursor=pointer]
+        - button "subtareas" [ref=e288] [cursor=pointer]
+        - button "comentarios" [ref=e289] [cursor=pointer]
+        - button "archivos" [ref=e290] [cursor=pointer]
+        - button "historial" [ref=e291] [cursor=pointer]
+      - generic [ref=e293]:
+        - generic [ref=e294]:
+          - generic [ref=e295]: Fecha
+          - generic [ref=e296]: Sin fecha
+        - generic [ref=e297]:
+          - generic [ref=e298]: Columna
+          - generic [ref=e299]: Inbox
+        - generic [ref=e300]:
+          - generic [ref=e301]: Creado
+          - generic [ref=e302]: hace 3 días
+        - generic [ref=e303]:
+          - generic [ref=e304]: Proyecto
+          - generic [ref=e305]: CLF-C02
